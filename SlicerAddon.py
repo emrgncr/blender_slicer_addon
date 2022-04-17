@@ -61,7 +61,7 @@ def slice_object(LayerSize:float = 0.5, Solver:str = 'FAST'):
         bpy.ops.object.modifier_apply(modifier='main_bool')
         bpy.ops.object.mode_set(mode='EDIT')
         bpy.ops.mesh.select_all(action='SELECT')
-        bpy.ops.mesh.extrude_context_move(TRANSFORM_OT_translate={"value":(0, 0, LayerSize), "orient_axis_ortho":'X', "orient_type":'GLOBAL', "orient_matrix":((0, 0, 0), (0, 0, 0), (0, 0, 0))})
+        bpy.ops.mesh.extrude_context_move(TRANSFORM_OT_translate={"value":(0, 0, LayerSize)})
         bpy.ops.object.mode_set(mode='OBJECT')
         
     selected.hide_set(True)
