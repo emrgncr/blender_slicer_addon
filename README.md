@@ -10,6 +10,7 @@ The geometry should be closed, if the addon is not working as intended, try reme
 # Usage
 To use it clone the repository (or download the .py file) and import it as an addon in blender.
 Now, in the object tab there should be a button called 'Slice the selected object':
+
 ![Example image](./Screenshot_1.png)
 
 Just click it
